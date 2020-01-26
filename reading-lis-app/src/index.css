@@ -53,5 +53,31 @@ body {
 .empty {
   margin: 20px;
   text-align: center;
+}
+
+form {
+  padding: 20px;
+}
+input[type='text'] {
+  width: 100%;
   padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background: #3c1f3c;
+  color: #fff;
+  border: 0;
+}
+input[type='submit'] {
+  margin: 10px auto;
+  background: #3c1f3c;
+  color: #eee;
+  border: 0;
+  padding: 10px 30px;
+  display: block;
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+input[type='submit']:hover {
+  transform: translateY(-3px);
 }
