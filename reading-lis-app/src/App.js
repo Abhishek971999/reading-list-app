@@ -1,8 +1,12 @@
 import React from 'react';
+import BookContextProvider from './contexts/BookContext';
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className='App'>
-      <h1>hello from react</h1>
+      <BookContextProvider>
+        <Navbar />
+      </BookContextProvider>
     </div>
   );
 }
